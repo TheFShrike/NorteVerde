@@ -10,7 +10,10 @@ body{
 }
 .navbar {
   background-color: #375A3C; 
-  
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: flex-end; /* Alinea los elementos horizontalmente a la derecha */
+  gap: 1.5rem;
 }
 
 
