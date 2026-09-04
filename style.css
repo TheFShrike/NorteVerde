@@ -1,11 +1,36 @@
+/* Reset básico para eliminar márgenes por defecto */
 * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
-.body{
+
+/* Fondo verde en todo el cuerpo */
+body {
   background-color: #2e7d32; /* Verde bosque */
   font-family: system-ui, -apple-system, sans-serif;
   min-height: 100vh;
 }
 
+/* Barra de navegación arriba con Flexbox */
+.navbar {
+  background-color: #1b5e20; /* Verde oscuro para contrastar */
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: flex-end; /* Alinea los elementos horizontalmente a la derecha */
+  gap: 1.5rem;               /* Espacio horizontal entre los botones */
+}
+
+/* Estilo para los enlaces de navegación */
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: color 0.2s ease;
+}
+
+/* Efecto al pasar el cursor por encima */
+.navbar a:hover {
+  color: #a5d6a7;
+}
