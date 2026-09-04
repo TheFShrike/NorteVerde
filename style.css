@@ -10,6 +10,12 @@ body{
 }
 
 #barranav{
-  background-color:#375A3C;
+  width: 100%;                  /* Ocupa todo el ancho horizontal */
+  height: 10vh;                 /* 10% del alto vertical de la pantalla */
+  background-color: #375A3C;    /* Color verde oscuro indicado */
+  
+  /* Garantiza que quede pegado en la parte superior */
+  margin: 0;
+  padding: 0;
 }
 
