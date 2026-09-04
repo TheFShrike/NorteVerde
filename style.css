@@ -4,7 +4,9 @@
   padding: 0;
 }
 body{
-  background-color:green;
+  background-color: #2e7d32; /* Verde bosque */
+  font-family: system-ui, -apple-system, sans-serif;
+  min-height: 100vh;
 }
 .navbar{
   text-align: center;
