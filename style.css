@@ -9,11 +9,8 @@ body{
   background-color:#52AA5E;
 }
 .navbar {
-  background-color: #1b5e20; /* Verde oscuro para contrastar */
-  padding: 1rem 2rem;
-  display: flex;
-  justify-content: flex-end; /* Alinea los elementos horizontalmente a la derecha */
-  gap: 1.5rem;               /* Espacio horizontal entre los botones */
+  background-color: #375A3C; 
+  
 }
 
 
