@@ -15,5 +15,11 @@ body{
   justify-content: flex-end; /* Alinea los elementos horizontalmente a la derecha */
   gap: 1.5rem;
 }
-
+.navbar div {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: color 0.2s ease;
+}
 
