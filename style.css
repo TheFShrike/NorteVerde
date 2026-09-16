@@ -17,7 +17,7 @@ html, body {
 	background:linear-gradient(-45deg,#127a54,#00cc00,#127a54);
 	width: 100%;
     min-height: 100vh;
-	padding: 1rem;
+	padding: 2rem;
 }
 
 #clima{
@@ -35,7 +35,7 @@ nav div{
 	/*
 	width: 300px;
 	*/
-	min-width: 10vw;
+	min-width: 5vw;
 	max-width: 25vw;
 	margin:1rem;
 	padding:1rem;
