@@ -20,6 +20,10 @@ html, body {
 	padding: 1rem;
 }
 
+#clima{
+	
+}
+
 nav{
 	display:flex;
 	flex-direction: row; 
