@@ -8,7 +8,7 @@ const LONGITUD = -63.1922302;
 const URL = `https://api.openweathermap.org/data/2.5/weather?lat=${LATITUD}&lon=${LONGITUD}&units=metric&lang=es&appid=${API_KEY}`;
 
 async function obtenerClima() {
-  const contenedor = document.getElementById('clima-container');
+  const contenedor = document.getElementById('clima');
 
   try {
     const respuesta = await fetch(URL);
