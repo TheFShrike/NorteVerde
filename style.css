@@ -43,3 +43,7 @@ nav div{
 nav div:active{
 	background-color: #006600;
 }
+
+#fondo{
+	padding 2rem;
+}
