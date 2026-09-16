@@ -32,15 +32,9 @@ nav{
 }
 
 nav div{
-	nav div {
-    flex: 1;                /* Ocupan exactamente el mismo ancho distribuido */
-    max-width: 120px;       /* Controla el ancho máximo deseado */
-    text-align: center;     /* Centra el texto dentro del botón */
-    margin: 0.5rem;         /* Espaciado entre botones */
-    padding: 1rem 0;        /* Espaciado interno superior e inferior */
-    border: 2px solid #FFFFFF;
-    box-sizing: border-box; /* Garantiza que el borde no afecte el tamaño final */
-}
+	margin:1rem;
+	padding:1rem;
+	border: 2px solid #FFFFFF;
 }
 
 nav div:active{
