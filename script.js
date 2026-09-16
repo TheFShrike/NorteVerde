@@ -22,7 +22,6 @@ async function obtenerClima() {
     // Inserción de los datos en el div
     contenedor.innerHTML = `
       <div class="temperatura">${Math.round(datos.main.temp)}°C</div>
-      <div class="descripcion">${datos.weather[0].description}</div>
       <div class="detalles">Humedad: ${datos.main.humidity}%</div>
     `;
   } catch (error) {
