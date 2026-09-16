@@ -38,9 +38,9 @@ nav div{
 	width: 30vm;
 	
 	margin:auto;
-	padding:auto;
+	padding:0.125rem;
 	border: 2px solid #FFFFFF;
-	border-radius: 3px;
+	border-radius: 5px;
 }
 
 nav div:active{
