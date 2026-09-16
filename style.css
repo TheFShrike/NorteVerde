@@ -4,8 +4,6 @@
 	font-family: Arial, Helvetica, sans-serif;
 	color: #ffffff;
 	font-weight: bold;
-	background-color:#127a54;
-	background:linear-gradient(-45deg,#127a54,#00cc00,#127a54);
 }
 
 html, body {
@@ -15,10 +13,8 @@ html, body {
 }
 
 #pantalla{
-	/*
 	background-color:#127a54;
 	background:linear-gradient(-45deg,#127a54,#00cc00,#127a54);
-	*/
 	width: 100%;
     min-height: 100vh;
 	padding: 1rem;
