@@ -59,3 +59,5 @@ botonInicio.addEventListener('click', () => {
 //Botón Ubicación
 document.getElementById("miDivClickable").addEventListener("click", function() {
   window.open("https://maps.app.goo.gl/Cx2tPs8CjmJbhDpTA", "_blank");
+}); 
+}
