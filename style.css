@@ -43,8 +43,15 @@ nav div{
 	cursor: pointer;
 }
 
-nav div, #ubic:active{
-	background-color: #006600;
+nav div:hover, 
+#ubic:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* Sombra blanca sutil al pasar el mouse */
+}
+
+/* 3. Efecto ACTIVE (mientras se mantiene presionado el clic) */
+nav div:active, 
+#ubic:active {
+  background-color: #006600; /* Verde oscuro solo al hacer clic */
 }
 
 
@@ -110,6 +117,3 @@ nav div, #ubic:active{
 	font-size:0.8rem;
 }
 
-#ubic:hover {
-  background-color: #e0e0e0; /* Opcional: efecto visual al pasar el mouse */
-}
