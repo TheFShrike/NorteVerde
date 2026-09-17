@@ -40,7 +40,7 @@ const divContenido = document.getElementById('contenido');
 // 2. Agregar el evento click al botón
 botonInicio.addEventListener('click', () => {
   // Leemos el archivo .txt (reemplaza 'archivo.txt' por la ruta de tu archivo)
-  fetch('archivo.txt')
+  fetch('NorteVerdeIntro.txt')
     .then(respuesta => respuesta.text())
     .then(texto => {
       // Reemplazamos el contenido con el texto del archivo
