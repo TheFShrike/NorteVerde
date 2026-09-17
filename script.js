@@ -31,11 +31,4 @@ async function obtenerClima() {
 
 obtenerClima();
 
-//Menú de botones
 
-const btnMenu = document.getElementById('btnMenu');
-        const nav = document.querySelector('nav');
-
-        btnMenu.addEventListener('click', () => {
-            nav.classList.toggle('open');
-        });
