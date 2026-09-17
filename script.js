@@ -32,16 +32,25 @@ async function obtenerClima() {
 obtenerClima();
 
 
-//Botón Inicio
+// Botón Inicio
 // 1. Obtener las referencias a los elementos del DOM
-  const botonInicio = document.getElementById('inicio');
-  const divContenido = document.getElementById('contenido');
+const botonInicio = document.getElementById('inicio');
+const divContenido = document.getElementById('contenido');
 
-  // 2. Agregar el evento click al botón
-  botonInicio.addEventListener('click', () => {
-    // Primero: Borramos el contenido anterior y escribimos "Hola Mundo"
-    divContenido.textContent = 'Hola Mundo';
-    
-    // Segundo: Cambiamos el display para hacerlo visible
-    divContenido.style.display = 'block';
+// 2. Agregar el evento click al botón
+botonInicio.addEventListener('click', () => {
+  // Leemos el archivo .txt (reemplaza 'archivo.txt' por la ruta de tu archivo)
+  fetch('archivo.txt')
+    .then(respuesta => respuesta.text())
+    .then(texto => {
+      // Reemplazamos el contenido con el texto del archivo
+      divContenido.textContent = texto;
+      
+      // Cambiamos el display para hacerlo visible
+      divContenido.style.display = 'block';
+    })
+    .catch(error => {
+      console.error('Error al cargar el archivo:', error);
+      divContenido.textContent = 'Error al cargar el contenido.';
+    });
 });
