@@ -44,4 +44,4 @@ obtenerClima();
     
     // Segundo: Cambiamos el display para hacerlo visible
     divContenido.style.display = 'block';
-
+});
