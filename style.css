@@ -87,9 +87,23 @@ nav div:active{
 }
 
 .subMenu {
+	/*
   display: none; /* Oculta los elementos del submenú por defecto */
+	*/
+	opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transform: translateY(-10px);
+    transition: opacity 0.3s ease, transform 0.3s ease, max-height 0.3s ease;
+    padding: 0 8px; /* Reducimos el padding vertical cuando está oculto */
 }
 
 nav.open .subMenu {
+	/*
     display: block;
+	*/
+	opacity: 1;
+    max-height: 50px; /* Define un alto máximo mayor a la altura real del elemento */
+    transform: translateY(0);
+    padding: 8px;
 }
