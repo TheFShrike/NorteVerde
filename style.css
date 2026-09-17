@@ -43,11 +43,6 @@ nav div{
 	cursor: pointer;
 }
 
-nav div:hover, 
-#ubic:hover {
-  background-color: #006600; /* Sombra blanca sutil al pasar el mouse */
-}
-
 /* 3. Efecto ACTIVE (mientras se mantiene presionado el clic) */
 nav div:active, 
 #ubic:active {
