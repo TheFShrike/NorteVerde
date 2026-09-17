@@ -52,3 +52,8 @@ nav div:active{
     max-height: 100%;
     object-fit: scale-down;
 }
+
+
+title{
+	font-size:1.5rem;
+}
