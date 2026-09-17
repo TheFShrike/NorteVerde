@@ -86,10 +86,3 @@ nav div:active{
 	text-align:center;
 }
 
-.subMenu {
-  display: none;
-}
-
-nav.open .subMenu {
-    display: block;
-}
