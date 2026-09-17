@@ -61,9 +61,20 @@ nav div:active{
     object-fit: scale-down;
 	
     background-repeat: no-repeat;
-    transition: background-image 2s ease-in-out;
+    animation: movimientoFondo 5s ease-in-out infinite;
 }
 
+@keyframes movimientoFondo {
+    0% {
+        transform: scale(1) translateX(0);
+    }
+    50% {
+        transform: scale(1.05) translateX(-10px); /* Zoom suave y leve movimiento a la izquierda */
+    }
+    100% {
+        transform: scale(1) translateX(0);
+    }
+}
 
 #título{
 	font-size:1.5rem;
