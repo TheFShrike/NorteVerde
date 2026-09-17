@@ -35,12 +35,13 @@ nav{
 
 nav div{
 	
-	width: 30vm;
+	width: 30vw;
 	
 	margin:auto;
 	padding:0.125rem;
 	border: 2px solid #FFFFFF;
 	border-radius: 5px;
+	cursor: pointer;
 }
 
 nav div:active{
