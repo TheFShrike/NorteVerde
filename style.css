@@ -89,3 +89,7 @@ nav div:active{
 .subMenu {
   display: none; /* Oculta los elementos del submenú por defecto */
 }
+
+nav.open .subMenu {
+    display: block;
+}
