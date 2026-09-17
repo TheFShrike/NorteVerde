@@ -34,9 +34,8 @@ nav{
 }
 
 nav div{
-	
+	text-align:center;
 	width: 30vw;
-	
 	margin:auto;
 	padding:0.125rem;
 	border: 2px solid #FFFFFF;
