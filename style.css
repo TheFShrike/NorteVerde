@@ -97,6 +97,7 @@ nav div:active{
 }
 
 #ubic{
+	cursor: pointer;
 	position: absolute;
 	bottom: 0;         /* Se alinea al borde inferior */
 	right: 0;          /* Se alinea al borde derecho */
@@ -107,4 +108,8 @@ nav div:active{
 
 	font-weight: normal;
 	font-size:0.8rem;
+}
+
+#ubic:hover {
+  background-color: #e0e0e0; /* Opcional: efecto visual al pasar el mouse */
 }
