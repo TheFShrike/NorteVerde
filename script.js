@@ -32,3 +32,16 @@ async function obtenerClima() {
 obtenerClima();
 
 
+//Botón Inicio
+// 1. Obtener las referencias a los elementos del DOM
+  const botonInicio = document.getElementById('inicio');
+  const divContenido = document.getElementById('contenido');
+
+  // 2. Agregar el evento click al botón
+  botonInicio.addEventListener('click', () => {
+    // Primero: Borramos el contenido anterior y escribimos "Hola Mundo"
+    divContenido.textContent = 'Hola Mundo';
+    
+    // Segundo: Cambiamos el display para hacerlo visible
+    divContenido.style.display = 'block';
+
