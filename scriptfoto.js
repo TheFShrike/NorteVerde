@@ -10,7 +10,7 @@ function cambiarFondo() {
     if (imagenes.length === 0) return;
 
     // Construye la ruta completa
-    const urlImagen = `url('${Portada}${imagenes[indiceActual]}')`;
+    const urlImagen = `url('${rutaCarpeta}${imagenes[indiceActual]}')`;
     contenedorFondo.style.backgroundImage = urlImagen;
 
     // Avanza al siguiente índice (y vuelve a cero al llegar al final)
