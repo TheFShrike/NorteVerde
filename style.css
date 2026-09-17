@@ -51,6 +51,7 @@ nav div:active{
 	max-width: 100%;
     max-height: 100%;
     object-fit: scale-down;
+	transition: background-image 1s ease-in-out;
 }
 
 
