@@ -97,6 +97,11 @@ nav div:active{
 }
 
 #ubic{
+	position: absolute;
+	bottom: 0;         /* Se alinea al borde inferior */
+	right: 0;          /* Se alinea al borde derecho */
+	z-index: 9999;
+	
 	border: 2px solid #FFFFFF;
 	border-radius: 5px;
 
