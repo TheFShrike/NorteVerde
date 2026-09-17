@@ -56,8 +56,12 @@ botonInicio.addEventListener('click', () => {
 });
 
 
-//Botón Ubicación
-document.getElementById("miDivClickable").addEventListener("click", function() {
-  window.open("https://maps.app.goo.gl/Cx2tPs8CjmJbhDpTA", "_blank");
-}); 
+// --- Botón Ubicación ---
+// Asegúrate de usar el ID correcto ('ubic' o 'miDivClickable')
+const botonUbicacion = document.getElementById('ubic') || document.getElementById('miDivClickable');
+
+if (botonUbicacion) {
+  botonUbicacion.addEventListener('click', function() {
+    window.open("https://maps.app.goo.gl/Cx2tPs8CjmJbhDpTA", "_blank");
+  }); // <-- Aquí faltaba cerrar la función y la llamada
 }
