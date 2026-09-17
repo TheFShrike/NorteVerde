@@ -75,6 +75,10 @@ nav div:active{
 	border-radius: 5px;
 }
 
+#contenido{
+	display: none;
+}
+
 #fondo img {
     max-width: 100%;
     height: auto;
