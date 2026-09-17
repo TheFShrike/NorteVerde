@@ -96,3 +96,10 @@ nav div:active{
 	text-align:center;
 }
 
+#ubic{
+	border: 2px solid #FFFFFF;
+	border-radius: 5px;
+
+	font-weight: normal;
+	font-size:0.8rem;
+}
