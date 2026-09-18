@@ -82,6 +82,8 @@ nav div:active,
 
 #contenido{
 	display: none;
+
+	font-size:5rem;
 }
 
 #fondo img {
